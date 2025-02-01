@@ -13,23 +13,32 @@
             padding: 50px;
         }
         .container {
-            max-width: 800px;a
+            max-width: 900px;
             margin: auto;
+            padding: 20px;
+            border: 2px solid #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
         }
         h1 {
             border-bottom: 2px solid #fff;
             padding-bottom: 10px;
+            font-size: 28px;
+            text-transform: uppercase;
         }
         .lab-results {
             margin-top: 20px;
-            padding: 20px;
-            border: 1px solid #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         .lab-results img {
-            width: 100%;
-            max-width: 700px;
-            margin-top: 10px;
+            width: 90%;
+            max-width: 800px;
+            margin-top: 20px;
             border: 2px solid #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
         }
     </style>
 </head>
@@ -37,7 +46,7 @@
     <div class="container">
         <h1>ShadowMountain Lab Results</h1>
         <div class="lab-results">
-            <p>Lab test results are displayed below:</p>
+            <p>Below are the official lab test results.</p>
             <img src="lab-result-1.jpeg" alt="Lab Result 1">
             <img src="lab-result-2.jpeg" alt="Lab Result 2">
             <img src="lab-result-3.jpeg" alt="Lab Result 3">
@@ -45,7 +54,6 @@
             <img src="lab-result-5.jpeg" alt="Lab Result 5">
             <img src="lab-result-6.jpeg" alt="Lab Result 6">
             <img src="lab-result-7.jpeg" alt="Lab Result 7">
-            <img src="lab-result-8.jpeg" alt="Lab Result 8">
         </div>
     </div>
 </body>
